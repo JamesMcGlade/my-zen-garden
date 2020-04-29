@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?fa/mily=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    color: #325050;
+    background: #fff;
+    font-family: 'IBM Plex Mono';
+    font-size: 70%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Satisfy';
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 400%;
+}
+
+h3 {
+    font-size: 150%;
+    color: black;
+    font-family: 'Roboto';
+    margin: 2em 0 0 0;
+}
+
+.summary{
+    padding-top: 0.9em;
+}
+
+a{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+header {
+    color: white;
+    background: url(/Users/codenationstudent/Downloads/mc-2-4-zen-garden-files/img/huntington.png);
+    text-align: center;
+    padding: 20px 0 70px 0;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+}
+
+h3, .summary p, .preamble p, .explanation p, .participation p, .benefits p, .requirements p{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.4em 0;
+}
+.participation, .benefits {
+    color: white;
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(/Users/codenationstudent/Downloads/mc-2-4-zen-garden-files/img/bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    padding: 0.2em 0;
+}
+
+p[role = 'contentinfo'] {
+    width: 100%;
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(138,188,159,0.5);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    padding: 0.2em 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+[role = 'contentinfo'] a{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+footer{
+    background-attachment: scroll, scroll, fixed;
+    background-color:darkgreen;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    padding: 0.2em 0;
+    text-align: center;
+    font-size: 4em;
+    
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+    display: none;
+}
+.design-selection li:nth-child(2n+1), .zen-resources li:nth-child(2n+1) {
+    clear: left;
+}
+
+.design-selection li, .design-archives li, .zen-resources li {
+    float: left;
+    width: 50%;
+    padding: 1.5em 10%;
+    border-top: solid 1px #d9e3dc;
+    color: #c0cac3;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
