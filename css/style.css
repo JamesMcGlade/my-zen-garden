@@ -25,6 +25,8 @@ h2 {
 h1 {
     font-family: 'Roboto';
     font-size: 400%;
+    text-shadow:5px 5px 10px black;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -137,4 +139,15 @@ ul {
 li {
     display: list-item;
     text-align: -webkit-match-parent;
+}
+
+.zen-resources {
+    overflow: hidden;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(/Users/codenationstudent/Downloads/mc-2-4-zen-garden-files/img/bamboo.png);
+}
+
+.summary a:hover, .participation a:hover, .requirements a:hover, .design-selection a:hover, .design-archives a:hover, .zen-resources a:hover{
+    text-decoration: underline;
+    opacity: 1;
 }
