@@ -91,7 +91,7 @@ p[role = 'contentinfo'] {
 
 footer{
     background-attachment: scroll, scroll, fixed;
-    background-color:darkgreen;
+    background-color:rgb(16, 66, 16);
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
     padding: 0.2em 0;
